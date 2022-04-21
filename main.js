@@ -42,7 +42,7 @@ window.addEventListener("scroll", () =>{
 
 if(window.innerWidth < 1200){
     burger = document.querySelector(".menu-btn");
-    connsole.log(burger);
+    console.log(burger);
     burger.addEventListener("click", function(){
         nav.classList.toggle("close");
     })
