@@ -40,7 +40,7 @@ window.addEventListener("scroll", () =>{
    });
 });
 
-if(window.innerwidth < 1200){
+if(window.innerWidth < 1200){
     burger = document.querySelector(".menu-btn");
     connsole.log(burger);
     burger.addEventListener("click", function(){
