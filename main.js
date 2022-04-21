@@ -37,8 +37,8 @@ window.addEventListener("scroll", () =>{
        else{
            link.classList.remove("active");
        }
-   })
-})
+   });
+});
 
 if(window.innerwidth < 1200){
     burger = document.querySelector(".menu-btn");
