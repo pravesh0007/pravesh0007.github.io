@@ -19,7 +19,7 @@ for (let i= 0; i < totalNavList; i++){
         }
     
          this.classList.add("active");
-        nav.classList.add("close");
+         nav.classList.add("close");
         
     })
 }
@@ -42,7 +42,7 @@ window.addEventListener("scroll", () =>{
    });
 });
 
-if(window.innerwidth < 1000){
+if(window.innerWidth < 1000){
     burger = document.querySelector(".menu-btn");
     console.log(burger);
     burger.addEventListener("click", function(){
