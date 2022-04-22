@@ -20,7 +20,6 @@ for (let i= 0; i < totalNavList; i++){
     
          this.classList.add("active");
          nav.classList.add("close");
-        
     })
 }
 
